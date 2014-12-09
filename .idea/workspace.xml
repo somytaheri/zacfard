@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02837b2e-ba3f-49f1-93fd-7a9a52620295" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/pages/index.hbs" afterPath="$PROJECT_DIR$/include/html/pages/index.hbs" />
-    </list>
+    <list default="true" id="02837b2e-ba3f-49f1-93fd-7a9a52620295" name="Default" comment="" />
     <ignored path="zacfard.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
