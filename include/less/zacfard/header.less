@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: @header-color;
+  height: 55px;
+  .container {
+    padding-top: 38px;
+    .logoStyle {
+      img {
+        float: left;
+        width: 93px;
+        height: auto;
+      }
+    }
+    .navStyle {
+      margin-top: 0px;
+      float: right;
+    }
+  }
+}
+@media (min-width: @min-small) {
+  .header {
+    height: 55px * 2;
+    .container {
+      padding-top: 60px;
+      .logoStyle {
+        img {
+          width: 93px * 3.3;
+          height: auto;
+        }
+      }
+        .navStyle {
+          margin-top: 28px;
+
+        }
+      }
+  }
+}

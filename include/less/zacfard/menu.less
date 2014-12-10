@@ -1,0 +1,25 @@
+.menu {
+  ul {
+    li {
+      float: left;
+      margin-left: 10px;
+      line-height: 0.9em;
+      a {
+        color: @text-base-color;
+        font-size: @font-size-small / 1.5;
+        font-family: @font-custom;
+        text-transform: uppercase;
+      }
+    }
+  }
+  @media (min-width: @min-small) {
+    ul {
+      li {
+        margin-left: 55px;
+        a {
+          font-size: @font-size-small;
+        }
+      }
+    }
+  }
+}
