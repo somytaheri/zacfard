@@ -1,0 +1,42 @@
+#about {
+  .skill {
+    background-color: @section2-bcg;
+  }
+  ul {
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+.skillIcon {
+  background-color: @skill-color;
+  width: 48px;
+  height: 48px;
+  color: @text-title-color;
+  font-size: @font-size-m-large;
+  font-weight: bold;
+  border-radius: 2px;
+  display: block;
+}
+.hobby {
+  background-color: @section1-bcg;
+  h3 {
+    text-align: center;
+  }
+}
+
+@media (min-width: @min-small) {
+  #about {
+    ul {
+      li {
+        margin-bottom: 20px;
+        line-height: 0.6em;
+      }
+    }
+    .skillIcon {
+      width: 48px;
+      height: 48px;
+      font-size: @font-size-large;
+    }
+  }
+}
