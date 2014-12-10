@@ -6366,3 +6366,37 @@ img {
     font-size: 12pt;
   }
 }
+#home {
+  height: 100%;
+}
+#home .homeBcg {
+  background-image: url(../images/homebcg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+#home .homeBcg .homeContent {
+  margin-top: 115px;
+  font-family: aerial;
+  color: #ffffff;
+}
+#home .homeBcg .homeContent .homeText1 {
+  font-size: 12pt;
+}
+#home .homeBcg .homeContent .homeText2 {
+  font-size: 7.92pt;
+  float: right;
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #home .homeBcg .homeContent {
+    margin-top: 275px;
+  }
+  #home .homeBcg .homeContent .homeText1 {
+    font-size: 30pt;
+  }
+  #home .homeBcg .homeContent .homeText2 {
+    font-size: 14pt;
+  }
+}

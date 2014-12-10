@@ -1,0 +1,40 @@
+#home {
+  height: 100%;
+//  padding-top: 55px;
+  .homeBcg {
+    background-image: url(../images/homebcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    .homeContent {
+      margin-top: 115px;
+      font-family: @font-custom-regular;
+      color: @text-home-color;
+      .homeText1 {
+        font-size: @font-size-small;
+      }
+      .homeText2 {
+        font-size: @font-size-small * 0.66;
+        float: right;
+        text-align: right;
+      }
+    }
+  }
+}
+@media (min-width: @min-small) {
+  #home {
+//    margin-top: 55px * 2;
+    .homeBcg {
+      .homeContent {
+        margin-top: 275px;
+        .homeText1 {
+          font-size: @font-size-large * 1.5;
+        }
+        .homeText2 {
+          font-size: @font-size-base;
+        }
+      }
+    }
+  }
+}
