@@ -3,6 +3,7 @@
   font-size: @font-size-m-large;
   color: @text-title-color;
   font-weight: bold;
+  text-transform: uppercase ;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -38,6 +39,13 @@
   font-family: @font-custom-regular;
   font-size: @font-size-m-small;
   color: @text-base-color;
+}
+
+.transition (@transition) {
+  -webkit-transition: @transition;
+  -moz-transition:    @transition;
+  -ms-transition:     @transition;
+  -o-transition:      @transition;
 }
 
 @media (min-width: @min-small)  {
