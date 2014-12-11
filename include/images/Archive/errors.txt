@@ -1,0 +1,2 @@
+[Thu Dec 11 2014 12:40:34 GMT+1100 (AEDT)] Layer "zacfard@gmail.com": Unsupported extension: com
+[Thu Dec 11 2014 12:40:34 GMT+1100 (AEDT)] Layer "+61 403 015 806": Expected Either a default asset specification or a layer asset specification but "+" found.

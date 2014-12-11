@@ -17,7 +17,7 @@ $( window ).bind("resize", function(){
     imageWidth = windowsWidth / 6;
     $(".imageSize").width(imageWidth);
     $(".imageSize").height(imageWidth);
-    console.log($(".grayscale").width());
-    console.log(windowsWidth);
+    //console.log($(".grayscale").width());
+    //console.log(windowsWidth);
 });
 

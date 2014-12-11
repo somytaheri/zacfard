@@ -1,0 +1,70 @@
+#contact {
+  background-color: @section1-bcg;
+  ul {
+    margin-bottom: 35px;
+    li {
+      margin-bottom: 35px;
+      a {
+        background-image: url(../images/sprite.png);
+        background-repeat: no-repeat;
+//        padding: 0 0 0 90px;
+        display: block;
+        height: 42px;
+        width: 42px;
+//        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        &:hover {
+          .contactItems {
+            opacity: 1;
+          }
+        }
+
+      }
+      a.email {
+        background-position: 0px -400px;
+
+      }
+      a.phone {
+        background-position: 0px -450px;
+      }
+      a.location {
+        background-position: 0px -500px;
+      }
+      a.linkedin {
+        background-position: 0px -550px;
+      }
+      a.beonce {
+        background-position: 0px -600px;
+      }
+
+    }
+  }
+  .contactItems {
+    display: block;
+    opacity: 0;
+    width: 160px;
+    height: 30px;
+    background-color: @contact-item-bcg;
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    margin-left: 19px;
+    color: @text-home-color;
+    font-size: @font-size-base;
+    font-family: @font-custom-regular;
+  }
+
+  .google-map {
+    width: 100%;
+    height: 80px;
+  }
+}
+
+@media (min-width: @min-small) {
+  #contact {
+    .google-map {
+      height: 390px;
+    }
+  }
+}
