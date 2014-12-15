@@ -6477,10 +6477,21 @@ img {
 #about .skill {
   background-color: #0fa7b5;
 }
+#about .skill .progress {
+  height: 24px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+#about .skill .progress-bar {
+  background-color: #006574;
+}
 #about ul li {
   margin-bottom: 10px;
 }
-.skillIcon {
+#about .skillIcon {
+  float: left;
   background-color: #09535a;
   width: 48px;
   height: 48px;
@@ -6490,16 +6501,86 @@ img {
   border-radius: 2px;
   display: block;
 }
-.hobby {
+#about .hobby {
   background-color: #d9d9d9;
 }
-.hobby h3 {
+#about .hobby h3 {
   text-align: center;
+}
+#about .hobby li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#about .hobby li span {
+  background-image: url(../images/sprite-2.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 21px;
+  width: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about .hobby .photography {
+  background-position: 0px 0px;
+}
+#about .hobby .traveling {
+  background-position: 0px -25px;
+}
+#about .hobby .climb {
+  background-position: 0px -50px;
+}
+#about .hobby .family {
+  background-position: 0px -75px;
+}
+#about .hobby .food {
+  background-position: 0px -100px;
+}
+#about .hobby .coffee {
+  background-position: 0px -125px;
+}
+#about .hobby .dog {
+  background-position: 0px -150px;
+}
+#about .hobby .plant {
+  background-position: 0px -175px;
 }
 @media (min-width: 768px) {
   #about ul li {
     margin-bottom: 20px;
     line-height: 0.6em;
+  }
+  #about .hobby li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #about .hobby li span {
+    background-image: url(../images/sprite.png);
+    height: 42px;
+    width: 42px;
+  }
+  #about .hobby span.photography {
+    background-position: 0px 0px;
+  }
+  #about .hobby .traveling {
+    background-position: 0px -50px;
+  }
+  #about .hobby .climb {
+    background-position: 0px -100px;
+  }
+  #about .hobby .family {
+    background-position: 0px -150px;
+  }
+  #about .hobby .food {
+    background-position: 0px -200px;
+  }
+  #about .hobby .coffee {
+    background-position: 0px -250px;
+  }
+  #about .hobby .dog {
+    background-position: 0px -300px;
+  }
+  #about .hobby .plant {
+    background-position: 0px -350px;
   }
   #about .skillIcon {
     width: 48px;

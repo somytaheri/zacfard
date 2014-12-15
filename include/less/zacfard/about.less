@@ -1,29 +1,81 @@
 #about {
   .skill {
     background-color: @section2-bcg;
+    .progress {
+      height: 24px;
+      margin-bottom: 12px;
+      margin-top: 12px;
+      background-color: @bar-bcg-color;
+      border-radius: 0;
+    }
+    .progress-bar {
+      background-color: @bar-color;
+    }
+
+
   }
   ul {
     li {
       margin-bottom: 10px;
     }
   }
-}
-.skillIcon {
-  background-color: @skill-color;
-  width: 48px;
-  height: 48px;
-  color: @text-title-color;
-  font-size: @font-size-m-large;
-  font-weight: bold;
-  border-radius: 2px;
-  display: block;
-}
-.hobby {
-  background-color: @section1-bcg;
-  h3 {
-    text-align: center;
+  .skillIcon {
+    float: left;
+    background-color: @skill-color;
+    width: 48px;
+    height: 48px;
+    color: @text-title-color;
+    font-size: @font-size-m-large;
+    font-weight: bold;
+    border-radius: 2px;
+    display: block;
+  }
+  .hobby {
+    background-color: @section1-bcg;
+    h3 {
+      text-align: center;
+    }
+    li {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      span {
+        background-image: url(../images/sprite-2.png);
+        background-repeat: no-repeat;
+        display: block;
+        height: 21px;
+        width: 21px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .photography {
+      background-position: 0px 0px;
+    }
+    .traveling {
+      background-position: 0px -25px;
+    }
+    .climb {
+      background-position: 0px -50px;
+    }
+    .family {
+      background-position: 0px -75px;
+    }
+    .food {
+      background-position: 0px -100px;
+    }
+    .coffee {
+      background-position: 0px -125px;
+    }
+    .dog {
+      background-position: 0px -150px;
+    }
+    .plant {
+      background-position: 0px -175px;
+    }
   }
 }
+
 
 @media (min-width: @min-small) {
   #about {
@@ -31,6 +83,42 @@
       li {
         margin-bottom: 20px;
         line-height: 0.6em;
+      }
+    }
+    .hobby {
+      li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        span {
+          background-image: url(../images/sprite.png);
+          height: 42px;
+          width: 42px;
+        }
+      }
+
+      span.photography {
+        background-position: 0px 0px;
+      }
+      .traveling {
+        background-position: 0px -50px;
+      }
+      .climb {
+        background-position: 0px -100px;
+      }
+      .family {
+        background-position: 0px -150px;
+      }
+      .food {
+        background-position: 0px -200px;
+      }
+      .coffee {
+        background-position: 0px -250px;
+      }
+      .dog {
+        background-position: 0px -300px;
+      }
+      .plant {
+        background-position: 0px -350px;
       }
     }
     .skillIcon {
