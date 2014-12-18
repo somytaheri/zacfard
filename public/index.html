@@ -155,7 +155,7 @@
 </section>
 <section id="portfolio">
     <h3 class="headingtitleStyle">portfolio</h3>
-    <ul>
+    <ul id="thumbnail">
         <li class="imageSize">
             <img src="assets/images/portfolio/small/00.jpg" alt="" data-toggle="modal" id="0" class="grayscale imgModal" data-target="#myModal">
         </li>
@@ -236,6 +236,69 @@
         </li>
     </ul>
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body vrtline">
+                    <div class="cycle-slideshow"
+                         data-cycle-tmpl-regex="\[\[((\.)?.*?)\]\]"
+                         data-cycle-fx="fade"
+                         data-cycle-speed="3000"
+                         data-cycle-timeout="0"
+                         data-cycle-prev="#prev"
+                         data-cycle-next="#next"
+                         data-cycle-caption="#alt-caption"
+                         data-cycle-caption-template="[[alt]]">
+                        <!--<div class="slider-content ">-->
+                            <img src="assets/images/portfolio/large/00.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/01.png" alt="summer"/>
+                            <img src="assets/images/portfolio/large/02.png" alt="hi"/>
+                            <img src="assets/images/portfolio/large/03.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/04.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/05.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/06.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/07.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/08.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/09.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/10.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/11.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/12.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/13.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/14.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/15.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/16.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/17.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/18.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/19.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/20.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/21.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/22.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/23.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/24.png" alt="Spring"/>
+                            <img src="assets/images/portfolio/large/25.png" alt="Spring"/>
+                        <!--</div>&lt;!&ndash; / .slider-content&ndash;&gt;-->
+                    </div><!-- / .slider-wrapper-->
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <div id="alt-caption" class="caption"></div>
+                    <div class="arrow">
+                        <a href=# id="next"><img src="assets/images/portfolio/next.png" alt=""/></a>
+                        <a href=# id="prev"><img src="assets/images/portfolio/prev.png" alt=""/></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="clearfix"></div>
 
 </section>
@@ -261,6 +324,7 @@
 <script src="/assets/js/vendor/modernizr.min.js" async="async"></script>
 <script src="/assets/js/vendor/jquery.min.js"></script>
 <script src="/assets/js/vendor/bootstrap-min.js"></script>
+<script src="/assets/js/vendor/jquery.cycle2.min.js"></script>
 <script src="/assets/js/zacfard-src.js"></script>
 
 </body>
