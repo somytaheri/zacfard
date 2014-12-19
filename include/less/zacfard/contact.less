@@ -1,5 +1,9 @@
 #contact {
-  background-color: @section1-bcg;
+  padding-top: 20px;
+  .contactContent {
+    background-color: @section1-bcg;
+    padding-top: 10px;
+  }
   ul {
     margin-bottom: 35px;
     li {
@@ -64,6 +68,10 @@
 
 @media (min-width: @min-small) {
   #contact {
+    .contactContent {
+      padding-top: 20px;
+    }
+    padding-top: 90px;
     .google-map {
       height: 390px;
     }

@@ -1,7 +1,9 @@
 #portfolio {
+  padding-top: 20px;
   ul {
     li {
       float: left;
+      padding: 0 4px 4px 0;
       
 //      display: inline-block;
 //      margin-right: -4px;
@@ -9,7 +11,12 @@
       img {
         width: 100%;
         height: 100%;
+        box-shadow: 3px 3px 3px @shadow-color;
+
       }
+    }
+    li:nth-child(6n) {
+      padding: 0 0px 4px 0;
     }
   }
   img.grayscale {
@@ -22,5 +29,19 @@
   img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
+  }
+}
+
+@media (min-width: @min-small) {
+  #portfolio {
+    padding-top: 90px;
+    ul {
+      li {
+        padding: 0 15px 15px 0;
+      }
+      li:nth-child(6n) {
+        padding: 0 0px 15px 0;
+      }
+    }
   }
 }

@@ -36,28 +36,58 @@ $( window ).bind("resize", function(){
     map.setCenter(center);
 
 });;/**
+ * Created by somi on 19/12/14.
+ */
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 0)
+    {
+        $('#header').stop().animate({
+            backgroundColor :"#d9d9d9"
+        }, 100 );
+    } else {
+        $('#header').stop().animate({
+            backgroundColor :"rgba(3,0,0,0.15)"
+        }, 100 );
+    }
+});
+
+
+;/**
  * Created by somi on 11/12/14.
  */
 
 jQuery(document).ready(function () {
-    //$( window ).bind("resize", function(){
-        var windowsWidth = $(window).width();
-        imageWidth = windowsWidth / 6;
-        $(".imageSize").width(imageWidth);
-        $(".imageSize").height(imageWidth);
-        console.log($(".grayscale").width());
-        console.log(windowsWidth);
-    //});
-});
-$( window ).bind("resize", function(){
+    var n   =6 ;//nomber of image in each row
     var windowsWidth = $(window).width();
-    imageWidth = windowsWidth / 6;
+    var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
+    var imageWidth = (windowsWidth - paddingRight * (n-1))/n;
+
     $(".imageSize").width(imageWidth);
     $(".imageSize").height(imageWidth);
-    //console.log($(".grayscale").width());
-    //console.log(windowsWidth);
+
+});
+$( window ).bind("resize", function(){
+    var n=6 ;//nomber of image in each row
+    var windowsWidth = $(window).width();
+    var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
+
+    imageWidth = (windowsWidth - paddingRight * (n-1))/n;
+    $(".imageSize").width(imageWidth);
+    $(".imageSize").height(imageWidth);
 });
 
+;var $root = $('html, body'),
+    headerHeight = $("#header").css("height").replace('px', '');
+$("a").click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top - headerHeight
+    }, 700, function () {
+        window.location.hash = href;
+    });
+    return false;
+});
 ;/**
  * Created by somi on 15/12/14.
  */

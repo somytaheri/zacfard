@@ -3,21 +3,22 @@
  */
 
 jQuery(document).ready(function () {
-    //$( window ).bind("resize", function(){
-        var windowsWidth = $(window).width();
-        imageWidth = windowsWidth / 6;
-        $(".imageSize").width(imageWidth);
-        $(".imageSize").height(imageWidth);
-        console.log($(".grayscale").width());
-        console.log(windowsWidth);
-    //});
-});
-$( window ).bind("resize", function(){
+    var n   =6 ;//nomber of image in each row
     var windowsWidth = $(window).width();
-    imageWidth = windowsWidth / 6;
+    var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
+    var imageWidth = (windowsWidth - paddingRight * (n-1))/n;
+
     $(".imageSize").width(imageWidth);
     $(".imageSize").height(imageWidth);
-    //console.log($(".grayscale").width());
-    //console.log(windowsWidth);
+
+});
+$( window ).bind("resize", function(){
+    var n=6 ;//nomber of image in each row
+    var windowsWidth = $(window).width();
+    var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
+
+    imageWidth = (windowsWidth - paddingRight * (n-1))/n;
+    $(".imageSize").width(imageWidth);
+    $(".imageSize").height(imageWidth);
 });
 

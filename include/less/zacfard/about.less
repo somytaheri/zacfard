@@ -1,10 +1,15 @@
 #about {
+  padding-top: 20px;
   .skill {
     background-color: @section2-bcg;
+    padding-bottom: 8px;
+    padding-top: 20px;
+  }
     .progress {
+      width: 75%;
       height: 24px;
-      margin-bottom: 12px;
-      margin-top: 12px;
+      margin-bottom: 7px;
+      margin-top: 7px;
       background-color: @bar-bcg-color;
       border-radius: 0;
     }
@@ -12,42 +17,63 @@
       background-color: @bar-color;
     }
 
-
+  .aboutExp {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    ul {
+      li {
+        margin-bottom: 20px;
+      }
+    }
   }
-  ul {
+  .education {
+    margin-top: 20px;
     li {
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
   }
   .skillIcon {
     float: left;
-    background-color: @skill-color;
-    width: 48px;
-    height: 48px;
-    color: @text-title-color;
-    font-size: @font-size-m-large;
-    font-weight: bold;
+    width: 38px;
+    height: 38px;
     border-radius: 2px;
     display: block;
+    margin-right: 10px;
+    margin-bottom: 7px;
   }
+  .award {
+    margin-top: 32px;
+  }
+
   .hobby {
+    padding-top: 13px;
     background-color: @section1-bcg;
+  }
+  .hobbyContent {
+    text-align: center;
+
     h3 {
       text-align: center;
     }
     li {
+      display: inline-block;
+      float: left;
       margin-top: 10px;
       margin-bottom: 10px;
+      margin-right: 2%;
+      margin-left: 2%;
       span {
         background-image: url(../images/sprite-2.png);
         background-repeat: no-repeat;
-        display: block;
+        display: inline-block;
         height: 21px;
         width: 21px;
         margin-left: auto;
         margin-right: auto;
       }
     }
+  }
+
 
     .photography {
       background-position: 0px 0px;
@@ -74,16 +100,41 @@
       background-position: 0px -175px;
     }
   }
-}
+
 
 
 @media (min-width: @min-small) {
   #about {
-    ul {
-      li {
-        margin-bottom: 20px;
-        line-height: 0.6em;
+    padding-top: 90px;
+    .progress {
+      height: 24px;
+      margin-bottom: 12px;
+      margin-top: 12px;
+    }
+    .aboutExp {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      ul {
+        li {
+          margin-bottom: 23px;
+
+        }
       }
+    }
+    .education {
+      margin-top: 0;
+      li {
+        margin-bottom: 23px;
+      }
+    }
+    .skillIcon {
+      width: 48px;
+      height: 48px;
+      margin-right: 10px;
+      margin-bottom: 7px;
+    }
+    .award {
+      margin-top: 72px;
     }
     .hobby {
       li {
@@ -121,10 +172,10 @@
         background-position: 0px -350px;
       }
     }
-    .skillIcon {
-      width: 48px;
-      height: 48px;
-      font-size: @font-size-large;
-    }
+//    .skillIcon {
+//      width: 48px;
+//      height: 48px;
+//      font-size: @font-size-large;
+//    }
   }
 }
