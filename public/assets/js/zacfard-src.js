@@ -112,7 +112,7 @@ $(".navbar-collapse ul li a").click(function() {
     $root.animate({
         scrollTop: $(href).offset().top - headerHeight
     }, 700, function () {
-        window.location.hash = href;
+        //window.location.hash = href;
     });
     return false;
 });
@@ -121,7 +121,7 @@ $(".navbar-brand").click(function() {
     $root.animate({
         scrollTop: $(href).offset().top - headerHeight
     }, 700, function () {
-        window.location.hash = href;
+        //window.location.hash = href;
     });
     return false;
 });
