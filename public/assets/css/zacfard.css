@@ -6334,7 +6334,7 @@ h6 {
 }
 .headingtitleStyle {
   font-family: arial;
-  font-size: 16pt;
+  font-size: 14pt;
   color: #0fa7b5;
   font-weight: bold;
   text-transform: uppercase ;
@@ -6350,7 +6350,7 @@ h6 {
 }
 .titleStyle {
   font-family: arial;
-  font-size: 16pt;
+  font-size: 14pt;
   color: #000000;
   font-weight: bold;
   margin-bottom: 12px;
@@ -6395,78 +6395,85 @@ h6 {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgba(3, 0, 0, 0.15);
-  height: 55px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 27px;
 }
 #header .container-fluid {
   padding-top: 35px;
 }
-#header .container-fluid .logoStyle img {
+.navbar-nav {
   float: left;
-  width: 93px;
+}
+.navbar-nav [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 0;
+}
+.navbar .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.navbar img {
+  width: 130px;
   height: auto;
-  padding-bottom: 3px;
 }
-#header .container-fluid .navStyle {
-  margin-top: -4px;
-  float: right;
-}
-@media (min-width: 768px) {
-  #header {
-    height: 110px;
-  }
-  #header .container-fluid {
-    padding-top: 75px;
-  }
-  #header .container-fluid .logoStyle img {
-    width: 213.9px;
-  }
-  #header .container-fluid .navStyle {
-    margin-top: 15px;
-  }
-}
-@media (min-width: 992px) {
-  #header {
-    height: 110px;
-  }
-  #header .container-fluid {
-    padding-top: 60px;
-  }
-  #header .container-fluid .logoStyle img {
-    width: 306.9px;
-  }
-  #header .container-fluid .navStyle {
-    margin-top: 28px;
-  }
-}
-.menu ul li {
-  float: left;
-  margin-left: 10px;
-  line-height: 0.9em;
-}
-.menu ul li a {
+.navbar-default .navbar-nav > li > a {
   color: #030000;
-  font-size: 8pt;
+  font-size: 12pt;
   font-family: arial;
   text-transform: uppercase;
 }
-.menu ul li:first-child {
-  margin-left: 0px;
+.navbar-brand {
+  height: 100%;
+  padding: 15px 0 0 0;
+}
+.navbar-header {
+  padding-left: 15px;
+}
+.navbar-collapse {
+  background-color: #787f6b;
+}
+.navbar-toggle {
+  margin-top: 0;
 }
 @media (min-width: 768px) {
-  .menu ul li {
-    margin-left: 45px;
+  .navbar img {
+    width: 214px;
   }
-  .menu ul li a {
-    font-size: 12pt;
+  .navbar-brand {
+    padding: 0 0 15px 0;
   }
-  .menu ul li:first-child {
-    margin-left: 0px;
+  .navbar-nav {
+    float: right;
+  }
+  .navbar-nav li a {
+    padding: 11px 0 0 48px;
+  }
+  .navbar-nav li:first-child a {
+    padding-left: 0;
   }
 }
 @media (min-width: 992px) {
-  .menu ul li {
-    margin-left: 55px;
+  .navbar img {
+    width: 307px;
+  }
+  .navbar-brand {
+    padding: 0 0 0 0;
+  }
+  .navbar-collapse {
+    background-color: inherit;
+  }
+  .navbar-nav li a {
+    padding-top: 24px;
   }
 }
 #home {
@@ -6559,7 +6566,6 @@ h6 {
 }
 #about .hobbyContent li {
   display: inline-block;
-  float: left;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 2%;
@@ -6573,6 +6579,12 @@ h6 {
   width: 21px;
   margin-left: auto;
   margin-right: auto;
+}
+#about .hobbyContent li:first-child {
+  margin-left: 0;
+}
+#about .hobbyContent li:last-child {
+  margin-right: 0;
 }
 #about .photography {
   background-position: 0px 0px;
@@ -6632,11 +6644,19 @@ h6 {
   #about .hobby li {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
   }
   #about .hobby li span {
     background-image: url(../images/sprite.png);
     height: 42px;
     width: 42px;
+  }
+  #about .hobby li:first-child {
+    margin-left: 0;
+  }
+  #about .hobby li:last-child {
+    margin-right: 0;
   }
   #about .hobby span.photography {
     background-position: 0px 0px;
@@ -6663,8 +6683,15 @@ h6 {
     background-position: 0px -350px;
   }
 }
+@media (min-width: 1200px) {
+  #about .hobby li {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+}
 #portfolio {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 #portfolio ul li {
   float: left;
@@ -6673,10 +6700,12 @@ h6 {
 #portfolio ul li img {
   width: 100%;
   height: 100%;
-  box-shadow: 3px 3px 3px #cfcfcf;
 }
 #portfolio ul li:nth-child(6n) {
   padding: 0 0px 4px 0;
+}
+#portfolio .imageSize img {
+  box-shadow: 3px 3px 3px #cfcfcf;
 }
 #portfolio img.grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -6698,6 +6727,7 @@ h6 {
 @media (min-width: 768px) {
   #portfolio {
     padding-top: 90px;
+    padding-bottom: 90px;
   }
   #portfolio ul li {
     padding: 0 15px 15px 0;
@@ -6726,6 +6756,8 @@ h6 {
 }
 #portfolio .modal-content {
   background-color: inherit;
+  border: none;
+  box-shadow: none;
 }
 #portfolio .modal-body {
   padding: 0;
@@ -6742,7 +6774,7 @@ h6 {
   text-shadow: none;
   opacity: 1;
   position: absolute;
-  right: -20px;
+  right: -18px;
   top: -20px;
   outline: none;
 }
@@ -6767,7 +6799,7 @@ h6 {
 }
 #portfolio .arrow {
   position: absolute;
-  right: -20px;
+  right: -18px;
   top: 10px;
 }
 #portfolio .arrow a {
@@ -6776,7 +6808,7 @@ h6 {
 }
 @media (min-width: 768px) {
   #portfolio .modal-dialog {
-    width: 923px;
+    width: 90%;
   }
   #portfolio .modal-body img {
     width: 90%;
@@ -6796,10 +6828,13 @@ h6 {
     top: 10px;
   }
 }
-#contact {
-  padding-top: 20px;
+@media (min-width: 992px) {
+  #portfolio .modal-dialog {
+    width: 923px;
+  }
 }
 #contact .contactContent {
+  position: relative;
   background-color: #d9d9d9;
   padding-top: 10px;
 }
@@ -6808,8 +6843,10 @@ h6 {
 }
 #contact ul li {
   margin-bottom: 35px;
+  z-index: 10;
 }
-#contact ul li a {
+#contact ul li a,
+#contact ul li span {
   background-image: url(../images/sprite.png);
   background-repeat: no-repeat;
   display: block;
@@ -6818,51 +6855,80 @@ h6 {
   margin-right: auto;
   margin-left: auto;
 }
-#contact ul li a:hover .contactItems {
-  opacity: 1;
-}
-#contact ul li a.email {
+#contact ul li .email {
   background-position: 0px -400px;
 }
-#contact ul li a.phone {
+#contact ul li .phone {
   background-position: 0px -450px;
 }
-#contact ul li a.location {
+#contact ul li .location {
   background-position: 0px -500px;
 }
-#contact ul li a.linkedin {
+#contact ul li .linkedin {
   background-position: 0px -550px;
 }
-#contact ul li a.beonce {
+#contact ul li .beonce {
   background-position: 0px -600px;
 }
-#contact .contactItems {
-  display: block;
-  opacity: 0;
-  width: 160px;
-  height: 30px;
-  background-color: #817f7f;
+#contact .emailShow,
+#contact .phoneShow {
   position: absolute;
-  top: 11px;
+  display: none;
+  width: 181px;
+  height: 24px;
+  background-color: #817f7f;
   left: 50%;
-  margin-left: 19px;
+  margin-left: 17px;
+  padding-left: 10px;
+  line-height: 21px;
   color: #ffffff;
-  font-size: 14pt;
+  font-size: 10pt;
   font-family: arial;
+}
+#contact .emailShow {
+  top: 49px;
+}
+#contact .phoneShow {
+  top: 125px;
 }
 #contact .google-map {
   width: 100%;
   height: 80px;
 }
 @media (min-width: 768px) {
-  #contact {
-    padding-top: 90px;
-  }
   #contact .contactContent {
     padding-top: 20px;
   }
+  #contact .emailShow,
+  #contact .phoneShow {
+    font-size: 12pt;
+    width: 154px;
+  }
+  #contact .emailShow {
+    left: 12%;
+    top: 80px;
+  }
+  #contact .phoneShow {
+    left: 37%;
+    top: 80px;
+  }
   #contact .google-map {
     height: 390px;
+  }
+}
+@media (min-width: 992px) {
+  #contact .emailShow,
+  #contact .phoneShow {
+    font-size: 14pt;
+    width: 181px;
+  }
+  #contact .emailShow {
+    left: 12%;
+    top: 80px;
+  }
+  #contact .phoneShow {
+    left: 37%;
+    top: 80px;
   }
 }
 #footer {
@@ -6884,7 +6950,7 @@ h6 {
   display: inline-block;
   padding: 0px 15px;
   position: relative;
-  top: -1.7em;
+  top: -1.8em;
   color: #0fa7b5;
   font-size: 10pt;
   background-color: #d9d9d9;

@@ -1,6 +1,7 @@
 var $root = $('html, body'),
     headerHeight = $("#header").css("height").replace('px', '');
-$("a").click(function() {
+$(".navbar-collapse ul li a, .navbar-brand").click(function() {
+    $('.navbar-toggle:visible').click();
     var href = $.attr(this, 'href');
     $root.animate({
         scrollTop: $(href).offset().top - headerHeight

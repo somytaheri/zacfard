@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02837b2e-ba3f-49f1-93fd-7a9a52620295" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/html/partials/contentdown.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/less/zacfard/contentdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/js/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/js/scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/about.hbs" afterPath="$PROJECT_DIR$/include/html/partials/about.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/js/contact.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/html/partials/menu.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/less/zacfard/contentdown.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/about.less" afterPath="$PROJECT_DIR$/include/less/zacfard/about.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/base.less" afterPath="$PROJECT_DIR$/include/less/zacfard/base.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/contact.hbs" afterPath="$PROJECT_DIR$/include/html/partials/contact.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/contact.less" afterPath="$PROJECT_DIR$/include/less/zacfard/contact.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/footer.less" afterPath="$PROJECT_DIR$/include/less/zacfard/footer.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/header.hbs" afterPath="$PROJECT_DIR$/include/html/partials/header.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/js/header.js" afterPath="$PROJECT_DIR$/include/js/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/header.less" afterPath="$PROJECT_DIR$/include/less/zacfard/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/home.hbs" afterPath="$PROJECT_DIR$/include/html/partials/home.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/home.less" afterPath="$PROJECT_DIR$/include/less/zacfard/home.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/pages/index.hbs" afterPath="$PROJECT_DIR$/include/html/pages/index.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/layouts/master.hbs" afterPath="$PROJECT_DIR$/include/html/layouts/master.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/menu.hbs" afterPath="$PROJECT_DIR$/include/html/partials/menu.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/menu.less" afterPath="$PROJECT_DIR$/include/less/zacfard/menu.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/mixin-zacfard.less" afterPath="$PROJECT_DIR$/include/less/zacfard/mixin-zacfard.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/js/portfolio.js" afterPath="$PROJECT_DIR$/include/js/portfolio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/modal.less" afterPath="$PROJECT_DIR$/include/less/zacfard/modal.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard/portfolio.less" afterPath="$PROJECT_DIR$/include/less/zacfard/portfolio.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/js/scroll.js" afterPath="$PROJECT_DIR$/include/js/scroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/js/slider.js" afterPath="$PROJECT_DIR$/include/js/slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/variables.less" afterPath="$PROJECT_DIR$/include/less/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/zacfard-min.css" afterPath="$PROJECT_DIR$/public/assets/css/zacfard-min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/zacfard-min.js" afterPath="$PROJECT_DIR$/public/assets/js/zacfard-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/zacfard-src.js" afterPath="$PROJECT_DIR$/public/assets/js/zacfard-src.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/zacfard.css" afterPath="$PROJECT_DIR$/public/assets/css/zacfard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/zacfard.less" afterPath="$PROJECT_DIR$/include/less/zacfard.less" />
     </list>
     <ignored path="zacfard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,48 +50,18 @@
       <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/less/zacfard/portfolio.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.979591" vertical-offset="100" max-vertical-offset="780">
-              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+            <state vertical-scroll-proportion="-5.5102043" vertical-offset="0" max-vertical-offset="795">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/less/zacfard/contact.less">
+      <file leaf-file-name="modal.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/less/zacfard/modal.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2244898" vertical-offset="0" max-vertical-offset="1260">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/html/partials/contact.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="285">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/html/partials/menu.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="180">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scroll.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/include/js/scroll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1212938" vertical-offset="0" max-vertical-offset="742">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state vertical-scroll-proportion="1.4285715" vertical-offset="705" max-vertical-offset="1815">
+              <caret line="113" column="3" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -107,8 +70,8 @@
       <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/js/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -116,11 +79,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/js/portfolio.js">
+      <file leaf-file-name="scroll.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/js/scroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="7" column="77" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/html/partials/header.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="615">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zacfard.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/less/zacfard.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="300">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/less/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5102043" vertical-offset="30" max-vertical-offset="13440">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -129,25 +122,9 @@
       <file leaf-file-name="menu.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/less/zacfard/menu.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9591837" vertical-offset="0" max-vertical-offset="660">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.5510204" vertical-offset="837" max-vertical-offset="1530">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zacfard-src.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/zacfard-src.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1478" max-vertical-offset="1845">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1418973593000" expanded="true" signature="2054:2373" placeholder="{...}" />
-                <marker date="1418973593000" expanded="true" signature="2096:2373" placeholder="{...}" />
-                <marker date="1418973593000" expanded="true" signature="2185:2351" placeholder="{...}" />
-                <marker date="1418973593000" expanded="true" signature="2172:2318" placeholder="{...}" />
-                <marker date="1418973593000" expanded="true" signature="2206:2241" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,11 +132,21 @@
       <file leaf-file-name="about.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/less/zacfard/about.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.183674" vertical-offset="1455" max-vertical-offset="2745">
-              <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+            <state vertical-scroll-proportion="-9.857142" vertical-offset="2502" max-vertical-offset="3195">
+              <caret line="202" column="5" selection-start-line="202" selection-start-column="5" selection-end-line="207" selection-end-column="9" />
               <folding>
                 <element signature="e#787#852#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/less/zacfard/header.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6734693" vertical-offset="0" max-vertical-offset="285">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,11 +167,7 @@
         <option value="$PROJECT_DIR$/include/js/google-map.js" />
         <option value="$PROJECT_DIR$/include/js/googlemap.js" />
         <option value="$PROJECT_DIR$/include/html/partials/footer.hbs" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/modal.less" />
-        <option value="$PROJECT_DIR$/include/js/slider.js" />
         <option value="$PROJECT_DIR$/include/html/partials/portfolio.hbs" />
-        <option value="$PROJECT_DIR$/include/html/partials/header.hbs" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/header.less" />
         <option value="$PROJECT_DIR$/include/html/partials/home.hbs" />
         <option value="$PROJECT_DIR$/include/less/zacfard/home.less" />
         <option value="$PROJECT_DIR$/include/html/pages/index.hbs" />
@@ -194,18 +177,23 @@
         <option value="$PROJECT_DIR$/include/less/zacfard/base.less" />
         <option value="$PROJECT_DIR$/include/less/zacfard/mixin-zacfard.less" />
         <option value="$PROJECT_DIR$/include/js/portfolio.js" />
-        <option value="$PROJECT_DIR$/include/less/variables.less" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/menu.less" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/footer.less" />
         <option value="$PROJECT_DIR$/include/html/partials/about.hbs" />
         <option value="$PROJECT_DIR$/include/html/layouts/master.hbs" />
+        <option value="$PROJECT_DIR$/include/js/slider.js" />
         <option value="$PROJECT_DIR$/include/html/partials/menu.hbs" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/about.less" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/portfolio.less" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/footer.less" />
         <option value="$PROJECT_DIR$/include/html/partials/contact.hbs" />
-        <option value="$PROJECT_DIR$/include/less/zacfard/contact.less" />
-        <option value="$PROJECT_DIR$/include/js/header.js" />
+        <option value="$PROJECT_DIR$/include/js/contact.js" />
         <option value="$PROJECT_DIR$/include/js/scroll.js" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/contact.less" />
+        <option value="$PROJECT_DIR$/include/less/variables.less" />
+        <option value="$PROJECT_DIR$/include/js/header.js" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/about.less" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/header.less" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/menu.less" />
+        <option value="$PROJECT_DIR$/include/html/partials/header.hbs" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/portfolio.less" />
+        <option value="$PROJECT_DIR$/include/less/zacfard/modal.less" />
       </list>
     </option>
   </component>
@@ -221,8 +209,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1702" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -512,10 +501,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -523,10 +516,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -565,7 +554,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
+    <frame x="-11" y="23" width="1702" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,7 +563,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23380727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2641285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -582,11 +571,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -610,13 +599,63 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/include/html/partials/header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="345">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="465">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="330">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/js/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="450">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/menu.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="660">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/less/zacfard/portfolio.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="465">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="e#393#644#2" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="615">
           <caret line="19" column="134" selection-start-line="19" selection-start-column="134" selection-end-line="19" selection-end-column="134" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/js/googlemap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="2115">
@@ -738,32 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07575758" vertical-offset="0" max-vertical-offset="594">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1819407" vertical-offset="0" max-vertical-offset="742">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/modal.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5194805" vertical-offset="990" max-vertical-offset="1770">
-          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/header.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="345">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="345">
           <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,27 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/contentdown.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="225">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/html/partials/contentdown.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="300">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,19 +817,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/portfolio.hbs">
+    <entry file="file://$PROJECT_DIR$/include/html/partials/about.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-61.875" vertical-offset="45" max-vertical-offset="2310">
-          <caret line="102" column="90" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="90" />
+        <state vertical-scroll-proportion="-22.5" vertical-offset="1155" max-vertical-offset="1860">
+          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/html/layouts/master.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="645">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/zacfard-src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1508" max-vertical-offset="1845">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/variables.less">
+    <entry file="file://$PROJECT_DIR$/include/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9591837" vertical-offset="855" max-vertical-offset="13410">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.28301886" vertical-offset="0" max-vertical-offset="742">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,121 +857,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/about.hbs">
+    <entry file="file://$PROJECT_DIR$/include/js/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5" vertical-offset="1155" max-vertical-offset="1860">
-          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/layouts/master.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="645">
-          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7551022" vertical-offset="150" max-vertical-offset="960">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/about.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.183674" vertical-offset="1455" max-vertical-offset="2745">
-          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
-          <folding>
-            <element signature="e#787#852#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/portfolio.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.979591" vertical-offset="100" max-vertical-offset="780">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/contact.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="285">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/contact.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2244898" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/zacfard-src.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1478" max-vertical-offset="1845">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1418973593000" expanded="true" signature="2054:2373" placeholder="{...}" />
-            <marker date="1418973593000" expanded="true" signature="2096:2373" placeholder="{...}" />
-            <marker date="1418973593000" expanded="true" signature="2185:2351" placeholder="{...}" />
-            <marker date="1418973593000" expanded="true" signature="2172:2318" placeholder="{...}" />
-            <marker date="1418973593000" expanded="true" signature="2206:2241" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/zacfard/menu.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9591837" vertical-offset="0" max-vertical-offset="660">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/menu.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="180">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/js/portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/js/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08086254" vertical-offset="0" max-vertical-offset="742">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/html/partials/portfolio.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0626741" vertical-offset="0" max-vertical-offset="2310">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/js/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1212938" vertical-offset="0" max-vertical-offset="742">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/js/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6469003" vertical-offset="0" max-vertical-offset="742">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/html/partials/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27158773" vertical-offset="0" max-vertical-offset="718">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/contact.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048" vertical-offset="780" max-vertical-offset="1755">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5102043" vertical-offset="30" max-vertical-offset="13440">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/about.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.857142" vertical-offset="2502" max-vertical-offset="3195">
+          <caret line="202" column="5" selection-start-line="202" selection-start-column="5" selection-end-line="207" selection-end-column="9" />
+          <folding>
+            <element signature="e#787#852#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6734693" vertical-offset="0" max-vertical-offset="285">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/menu.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5510204" vertical-offset="837" max-vertical-offset="1530">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/html/partials/header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="615">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="300">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/portfolio.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5102043" vertical-offset="0" max-vertical-offset="795">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/zacfard/modal.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4285715" vertical-offset="705" max-vertical-offset="1815">
+          <caret line="113" column="3" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
           <folding />
         </state>
       </provider>

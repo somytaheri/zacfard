@@ -1,22 +1,22 @@
 #portfolio {
   padding-top: 20px;
+  padding-bottom: 20px;
   ul {
     li {
       float: left;
       padding: 0 4px 4px 0;
-      
-//      display: inline-block;
-//      margin-right: -4px;
-//      padding: 2px;
       img {
         width: 100%;
         height: 100%;
-        box-shadow: 3px 3px 3px @shadow-color;
-
       }
     }
     li:nth-child(6n) {
       padding: 0 0px 4px 0;
+    }
+  }
+  .imageSize {
+    img {
+      box-shadow: 3px 3px 3px @shadow-color;
     }
   }
   img.grayscale {
@@ -35,6 +35,7 @@
 @media (min-width: @min-small) {
   #portfolio {
     padding-top: 90px;
+    padding-bottom: 90px;
     ul {
       li {
         padding: 0 15px 15px 0;

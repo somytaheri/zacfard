@@ -1,4 +1,18 @@
 /**
+ * Created by somi on 22/12/14.
+ */
+
+$(".email").click(function (){
+    $(".emailShow").show("slow");
+    $(".phoneShow").hide("slow");
+});
+$(".phone").click(function (){
+    $(".emailShow").hide("slow");
+    $(".phoneShow").show("slow");
+});
+
+
+;/**
  * Created by somi on 11/12/14.
  */
 
@@ -45,10 +59,23 @@ $(window).scroll(function(){
         $('#header').stop().animate({
             backgroundColor :"#d9d9d9"
         }, 100 );
+        $('.navbar-collapse').stop().animate({
+            backgroundColor :"#d9d9d9"
+        }, 100 );
     } else {
         $('#header').stop().animate({
-            backgroundColor :"rgba(3,0,0,0.15)"
+            backgroundColor :"rgba(3,0,0,0)"
         }, 100 );
+        if($(window).width()>768){
+            $('.navbar-collapse').stop().animate({
+                backgroundColor :"rgba(3,0,0,0)"
+            }, 100 );
+        }
+        else {
+            $('.navbar-collapse').stop().animate({
+                backgroundColor :"#787f6b"
+            }, 100 );
+        }
     }
 });
 
@@ -79,7 +106,8 @@ $( window ).bind("resize", function(){
 
 ;var $root = $('html, body'),
     headerHeight = $("#header").css("height").replace('px', '');
-$("a").click(function() {
+$(".navbar-collapse ul li a, .navbar-brand").click(function() {
+    $('.navbar-toggle:visible').click();
     var href = $.attr(this, 'href');
     $root.animate({
         scrollTop: $(href).offset().top - headerHeight
@@ -92,7 +120,7 @@ $("a").click(function() {
  * Created by somi on 15/12/14.
  */
 //jQuery(document).ready(function ($) {
-var currentId =9;
+//var currentId =9;
 var changedOpts = $('.cycle-streams').data('cycle.startingSlide');
 
 function heshmsat(id){

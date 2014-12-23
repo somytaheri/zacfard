@@ -1,38 +1,96 @@
-.menu {
-  ul {
-    li {
-      float: left;
-      margin-left: 10px;
-      line-height: 0.9em;
-      a {
-        color: @text-nav-color;
-        font-size: @font-size-m-small * 0.8;
-        font-family: @font-custom;
-        text-transform: uppercase;
-      }
-      &:first-child {
-        margin-left: 0px;
-      }
+
+  .navbar-nav {
+    float: left;
+    [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
     }
   }
+
+  .navbar-default {
+    background-color: @header-color;
+  }
+
+  .navbar {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid @border-color;
+    margin-bottom: 0;
+    .container-fluid {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+    img {
+      width: 130px;
+      height: auto;
+    }
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: @text-nav-color;
+    font-size: @font-size-small;
+    font-family: @font-custom;
+    text-transform: uppercase;
+  }
+
+  .navbar-brand {
+    height: 100%;
+    padding: 15px 0 0 0;
+  }
+
+  .navbar-header {
+    padding-left: 15px;
+  }
+
+  .navbar-collapse {
+    background-color: @navcollapse-color;
+  }
+
+  .navbar-toggle {
+    margin-top: 0;
+  }
+
+
   @media (min-width: @min-small) {
-    ul {
+    .navbar {
+      img {
+        width: 214px;
+      }
+    }
+    .navbar-brand {
+      padding: 0 0 15px 0;
+    }
+    .navbar-nav {
+      float: right;
       li {
-        margin-left: 45px;
-        a {
-          font-size: @font-size-small;
+        a{
+          padding: 11px 0 0 48px;
         }
-        &:first-child {
-          margin-left: 0px;
-        }
+      }
+      li:first-child a{
+        padding-left: 0;
       }
     }
   }
+
   @media (min-width: @min-medium) {
-    ul {
+    .navbar {
+      img {
+        width: 307px;
+      }
+    }
+    .navbar-brand {
+      padding: 0 0 0 0;
+    }
+    .navbar-collapse {
+      background-color: inherit;
+    }
+    .navbar-nav {
       li {
-        margin-left: 55px;
+        a{
+          padding-top: 24px;
+        }
       }
     }
   }
-}
+

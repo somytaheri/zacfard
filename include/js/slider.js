@@ -2,7 +2,7 @@
  * Created by somi on 15/12/14.
  */
 //jQuery(document).ready(function ($) {
-var currentId =9;
+//var currentId =9;
 var changedOpts = $('.cycle-streams').data('cycle.startingSlide');
 
 function heshmsat(id){

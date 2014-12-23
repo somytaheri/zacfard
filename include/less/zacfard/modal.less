@@ -18,6 +18,8 @@
 
   .modal-content {
     background-color: inherit;
+    border: none;
+    box-shadow: none;
   }
 
   .modal-body {
@@ -37,7 +39,7 @@
     text-shadow: none;
     opacity: 1;
     position: absolute;
-    right: -20px;
+    right: -18px;
     top: -20px;
     outline: none;
   }
@@ -66,7 +68,7 @@
 
   .arrow {
     position: absolute;
-    right: -20px;
+    right: -18px;
     top: 10px;
     a {
       display: block;
@@ -76,11 +78,9 @@
   }
 
 
-
-
   @media (min-width: @min-small) {
     .modal-dialog {
-      width: 923px;
+      width: 90%;
     }
     .modal-body {
       img {
@@ -106,7 +106,10 @@
       top: 10px;
 
     }
-
   }
-
+  @media (min-width: @min-medium) {
+    .modal-dialog {
+      width: 923px;
+    }
+  }
 }

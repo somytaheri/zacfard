@@ -1,6 +1,7 @@
 #contact {
-  padding-top: 20px;
+//  padding-top: 20px;
   .contactContent {
+    position: relative;
     background-color: @section1-bcg;
     padding-top: 10px;
   }
@@ -8,7 +9,8 @@
     margin-bottom: 35px;
     li {
       margin-bottom: 35px;
-      a {
+      z-index: 10;
+      a, span {
         background-image: url(../images/sprite.png);
         background-repeat: no-repeat;
 //        padding: 0 0 0 90px;
@@ -20,44 +22,46 @@
         margin-left: auto;
 
         }
-      a:hover {
-        .contactItems {
-          opacity: 1;
-        }
 
-      }
-      a.email {
+      .email {
         background-position: 0px -400px;
 
       }
-      a.phone {
+      .phone {
         background-position: 0px -450px;
       }
-      a.location {
+      .location {
         background-position: 0px -500px;
       }
-      a.linkedin {
+      .linkedin {
         background-position: 0px -550px;
       }
-      a.beonce {
+      .beonce {
         background-position: 0px -600px;
       }
 
     }
   }
-  .contactItems {
-    display: block;
-    opacity: 0;
-    width: 160px;
-    height: 30px;
-    background-color: @contact-item-bcg;
+  .emailShow, .phoneShow {
     position: absolute;
-    top: 11px;
+    display: none;
+    width: 181px;
+    height: 24px;
+    background-color: @contact-item-bcg;
     left: 50%;
-    margin-left: 19px;
+    margin-left: 17px;
+    padding-left: 10px;
+    line-height: 21px;
     color: @text-home-color;
-    font-size: @font-size-base;
+    font-size: @font-size-m-small;
     font-family: @font-custom-regular;
+  }
+  .emailShow {
+    top: 49px;
+  }
+
+  .phoneShow {
+    top: 125px;
   }
 
   .google-map {
@@ -68,12 +72,41 @@
 
 @media (min-width: @min-small) {
   #contact {
+//    padding-top: 90px;
     .contactContent {
       padding-top: 20px;
     }
-    padding-top: 90px;
+    .emailShow, .phoneShow {
+      font-size: @font-size-small;
+      width: 154px;
+    }
+    .emailShow {
+      left: 12%;
+      top: 80px;
+    }
+
+    .phoneShow {
+      left: 37%;
+      top: 80px;
+    }
     .google-map {
       height: 390px;
+    }
+  }
+}
+@media (min-width: @min-medium) {
+  #contact {
+    .emailShow, .phoneShow {
+      font-size: @font-size-base;
+      width: 181px;
+    }
+    .emailShow {
+      left: 12%;
+      top: 80px;
+    }
+    .phoneShow {
+      left: 37%;
+      top: 80px;
     }
   }
 }
