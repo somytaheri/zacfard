@@ -6333,7 +6333,7 @@ h6 {
   margin: 0;
 }
 .headingtitleStyle {
-  font-family: arial;
+  font-family: michroma, Arial, sans-serif;
   font-size: 14pt;
   color: #0fa7b5;
   font-weight: bold;
@@ -6342,21 +6342,21 @@ h6 {
   margin-bottom: 10px;
 }
 .paragraphStyle {
-  font-family: arial;
+  font-family: tahoma, "Times New Roman", serif;
   font-size: 12pt;
   color: #000000;
   text-align: center;
   margin-bottom: 10px;
 }
 .titleStyle {
-  font-family: arial;
+  font-family: michroma, Arial, sans-serif;
   font-size: 14pt;
   color: #000000;
   font-weight: bold;
   margin-bottom: 12px;
 }
 .subtitleStyle {
-  font-family: arial;
+  font-family: michroma, Arial, sans-serif;
   font-size: 10pt;
   color: #000000;
   font-weight: bold;
@@ -6364,7 +6364,7 @@ h6 {
   margin-top: 0;
 }
 .descriptionStyle {
-  font-family: arial;
+  font-family: tahoma, "Times New Roman", serif;
   font-size: 10pt;
   color: #000000;
 }
@@ -6395,7 +6395,6 @@ h6 {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0);
   padding-top: 0px;
 }
 #header .container-fluid {
@@ -6437,7 +6436,7 @@ h6 {
 .navbar-default .navbar-nav > li > a {
   color: #030000;
   font-size: 12pt;
-  font-family: arial;
+  font-family: tahoma, "Times New Roman", serif;
   text-transform: uppercase;
 }
 .navbar-brand {
@@ -6454,11 +6453,17 @@ h6 {
   margin-top: 0;
 }
 @media (min-width: 768px) {
+  .navbar-default {
+    background-color: inherit;
+  }
   .navbar img {
     width: 214px;
   }
   .navbar-brand {
     padding: 0 0 15px 0;
+  }
+  .navbar-collapse {
+    background-color: initial;
   }
   .navbar-nav {
     float: right;
@@ -6477,9 +6482,6 @@ h6 {
   .navbar-brand {
     padding: 0 0 0 0;
   }
-  .navbar-collapse {
-    background-color: inherit;
-  }
   .navbar-nav li a {
     padding-top: 24px;
   }
@@ -6496,7 +6498,7 @@ h6 {
 }
 #home .homeBcg .homeContent {
   margin-top: 115px;
-  font-family: arial;
+  font-family: michroma, Arial, sans-serif;
   color: #ffffff;
 }
 #home .homeBcg .homeContent .homeText1 {
@@ -6745,27 +6747,31 @@ h6 {
   }
 }
 #portfolio .modal-backdrop.in {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
   opacity: 0.9;
 }
 #portfolio .modal-dialog {
+  overflow: hidden;
+  margin: 0 auto;
+  display: table;
+  height: 100%;
   width: 85%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 #portfolio .modal-header {
   border-bottom: none;
   padding: 0;
+  position: relative;
 }
 #portfolio .modal-content {
   background-color: inherit;
   border: none;
   box-shadow: none;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
 }
 #portfolio .modal-body {
   padding: 0;
@@ -6780,9 +6786,13 @@ h6 {
 #portfolio .close {
   color: #0fa7b5;
   text-shadow: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
   opacity: 1;
   position: absolute;
-  right: -18px;
+  right: 0;
   top: -20px;
   outline: none;
 }
@@ -6791,6 +6801,9 @@ h6 {
   content: "";
   height: 100%;
   width: 3px;
+  background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #939393 50%, rgba(0, 0, 0, 0) 100%);
+  background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #939393 50%, rgba(0, 0, 0, 0) 100%);
+  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #939393 50%, rgba(0, 0, 0, 0) 100%);
   background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #939393 50%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
   right: 0;
@@ -6802,12 +6815,15 @@ h6 {
   padding: 5px;
   text-align: left;
   font-size: 12pt;
-  font-family: arial;
+  font-family: tahoma, "Times New Roman", serif;
+  color: #0fa7b5;
+}
+#portfolio .caption a {
   color: #0fa7b5;
 }
 #portfolio .arrow {
   position: absolute;
-  right: -18px;
+  right: 0;
   top: 10px;
 }
 #portfolio .arrow a {
@@ -6822,8 +6838,8 @@ h6 {
     width: 90%;
   }
   #portfolio .close {
-    right: 5%;
-    top: -5%;
+    right: 4%;
+    top: -20px;
   }
   #portfolio .vrtline:before {
     display: block;
@@ -6891,7 +6907,7 @@ h6 {
   line-height: 21px;
   color: #ffffff;
   font-size: 10pt;
-  font-family: arial;
+  font-family: tahoma, "Times New Roman", serif;
 }
 #contact .emailShow {
   top: 49px;
@@ -6928,7 +6944,8 @@ h6 {
   #contact .emailShow,
   #contact .phoneShow {
     font-size: 14pt;
-    width: 181px;
+    width: 190px;
+    padding-left: 20px;
   }
   #contact .emailShow {
     left: 12%;
@@ -6961,6 +6978,7 @@ h6 {
   top: -1.8em;
   color: #0fa7b5;
   font-size: 10pt;
+  font-family: tahoma, "Times New Roman", serif;
   background-color: #d9d9d9;
   z-index: 1;
 }

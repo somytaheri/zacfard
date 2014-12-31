@@ -1,5 +1,5 @@
 .headingtitleStyle {
-  font-family: @font-custom;
+  font-family: @font-custom-title;
   font-size: @font-size-m-large;
   color: @text-title-color;
   font-weight: bold;
@@ -10,7 +10,7 @@
 }
 
 .paragraphStyle {
-  font-family: @font-custom-regular;
+  font-family: @font-custom;
   font-size: @font-size-m-base;
   color: @text-base-color;
   text-align: center;
@@ -18,7 +18,7 @@
 }
 
 .titleStyle {
-  font-family: @font-custom;
+  font-family: @font-custom-title;
   font-size: @font-size-m-large;
   color: @text-base-color;
   font-weight: bold;
@@ -27,7 +27,7 @@
 }
 
 .subtitleStyle {
-  font-family: @font-custom-regular;
+  font-family: @font-custom-title;
   font-size: @font-size-m-small;
   color: @text-base-color;
   font-weight: bold;
@@ -36,7 +36,7 @@
 }
 
 .descriptionStyle {
-  font-family: @font-custom-regular;
+  font-family: @font-custom;
   font-size: @font-size-m-small;
   color: @text-base-color;
 }
@@ -56,6 +56,8 @@
   -o-transform: translate(x,y);
   transform: translate(x,y);
 }
+
+
 
 @media (min-width: @min-small)  {
   .headingtitleStyle {
