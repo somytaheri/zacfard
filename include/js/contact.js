@@ -3,12 +3,24 @@
  */
 
 $(".email").click(function (){
-    $(".emailShow").show("slow");
-    $(".phoneShow").hide("slow");
+    $(".emailShow").css({
+        opacity: 1,
+        transition: 'opacity 1s ease-in-out'
+    });
+    $(".phoneShow").css({
+        opacity: 0,
+        transition: 'opacity 1s ease-in-out'
+    });
 });
 $(".phone").click(function (){
-    $(".emailShow").hide("slow");
-    $(".phoneShow").show("slow");
+    $(".emailShow").css({
+        opacity: 0,
+        transition: 'opacity 1s ease-in-out'
+    });
+    $(".phoneShow").css({
+        opacity: 1,
+        transition: 'opacity 1s ease-in-out'
+    });
 });
 
 
