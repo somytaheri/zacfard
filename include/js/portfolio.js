@@ -3,7 +3,7 @@
  */
 
 jQuery(document).ready(function () {
-    var n   =6 ;//nomber of image in each row
+    var n   =6 ;//number of image in each row
     var windowsWidth = $(window).width();
     var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
     var imageWidth = (windowsWidth - paddingRight * (n-1))/n;
@@ -13,7 +13,7 @@ jQuery(document).ready(function () {
 
 });
 $( window ).bind("resize", function(){
-    var n=6 ;//nomber of image in each row
+    var n=6 ;//number of image in each row
     var windowsWidth = $(window).width();
     var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
 

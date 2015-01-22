@@ -12,27 +12,10 @@ function initialize() {
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
-    //var marker = new google.maps.Marker({
-    //    position: myLatlng,
-    //    map: map,
-    //    animation: google.maps.Animation.DROP
-    //});
-    //google.maps.event.addListener(marker, 'click', toggleBounce);
-
-
 }
-//function toggleBounce() {
-//
-//    if (marker.getAnimation() !== null) {
-//        marker.setAnimation(null);
-//    } else {
-//        marker.setAnimation(google.maps.Animation.BOUNCE);
-//    }
-//}
 google.maps.event.addDomListener(window, 'load', initialize);
 $( window ).bind("resize", function(){
     var center = map.getCenter();
     google.maps.event.trigger(map, "resize");
     map.setCenter(center);
-
 });
