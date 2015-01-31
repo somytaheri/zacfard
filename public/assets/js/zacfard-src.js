@@ -76,27 +76,25 @@ $(window).scroll(function(){
 
 
 ;/**
- * Created by somi on 11/12/14.
+ * Created by somy on 11/12/14.
  */
 
+var calImgSize = function(){
+
+    var parentWidth = $(arguments[0]).width();
+    var paddingRight = $(arguments[1]).css("padding-right").replace('px', '');
+    var imageWidth = (parentWidth - (paddingRight * (arguments[2]-1)))/arguments[2];
+
+    $(arguments[1]).width(imageWidth);
+    $(arguments[1]).height(imageWidth);
+};
+
 jQuery(document).ready(function () {
-    var n   =6 ;//number of image in each row
-    var windowsWidth = $(window).width();
-    var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
-    var imageWidth = (windowsWidth - paddingRight * (n-1))/n;
-
-    $(".imageSize").width(imageWidth);
-    $(".imageSize").height(imageWidth);
-
+    calImgSize(window,".imageSize",6);
 });
-$( window ).bind("resize", function(){
-    var n=6 ;//number of image in each row
-    var windowsWidth = $(window).width();
-    var paddingRight = $(".imageSize").css("padding-right").replace('px', '');
 
-    imageWidth = (windowsWidth - paddingRight * (n-1))/n;
-    $(".imageSize").width(imageWidth);
-    $(".imageSize").height(imageWidth);
+$( window ).bind("resize", function(){
+    calImgSize(window,".imageSize",6);
 });
 
 ;var $root = $('html, body'),
